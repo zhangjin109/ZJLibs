@@ -32,7 +32,7 @@
 
 - (NSString *)hu_substringFromIndex:(NSUInteger)from{
     if (self.length<from) {
-        NSLog(@"11字符串substringFromIndex方法越界");
+        NSLog(@"zjlibs字符串substringFromIndex方法越界");
         return @"";
     }else{
         return [self hu_substringFromIndex:from];
@@ -41,7 +41,7 @@
 
 - (NSString *)hu_substringToIndex:(NSUInteger)to{
     if (self.length <to) {
-        NSLog(@"22字符串substringToIndex方法越界");
+        NSLog(@"zjlibs字符串substringToIndex方法越界");
         return self;
     }else{
         return [self hu_substringToIndex:to];
