@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		101FE2B05E0BC943E43FB3CB80659E3F /* Pods-ZJLibs_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0932F8BCE8503BBA62E1C898658A8095 /* Pods-ZJLibs_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		155E74A725B18E3500D6A1DE /* redImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 155E74A625B18E3500D6A1DE /* redImg.png */; };
 		16F9AEEAC1BE4875DA9B3CAB720D372A /* UIAlertController+HuAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 799E84C33694FEDBB1FED6B139AF67C2 /* UIAlertController+HuAlert.m */; };
 		3C4C864649FE0CB84974AAD06F6C8639 /* NSString+HUString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8DBB3A62ACCED7F37C8CA15C618AB1 /* NSString+HUString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AC97621FACD0B3243F1F45576B730CE /* Pods-ZJLibs_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B2AEE5E2DAB0EDA52DB017348C6BA /* Pods-ZJLibs_Example-dummy.m */; };
@@ -47,6 +48,7 @@
 		0932F8BCE8503BBA62E1C898658A8095 /* Pods-ZJLibs_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJLibs_Example-umbrella.h"; sourceTree = "<group>"; };
 		0F1890E1D40E05BD8E2D60A791FD6259 /* ZJLibs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJLibs.debug.xcconfig; sourceTree = "<group>"; };
 		0F76CA3419748EFF7DBC54B4071DDBD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		155E74A625B18E3500D6A1DE /* redImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redImg.png; path = ZJLibs/Assets/redImg.png; sourceTree = "<group>"; };
 		186003DC0FA52CBB431CCD1751DA7038 /* ZJLibs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJLibs-Info.plist"; sourceTree = "<group>"; };
 		18F6BD877FA21936BFE35C7329D0FB59 /* Pods-ZJLibs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJLibs_Tests-dummy.m"; sourceTree = "<group>"; };
 		1D67CF6E4C064E5AD3504CED0C467B3D /* ZJLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZJLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 		61BF7368ED84ECBA82E65BD59BC67381 /* ZJLibs */ = {
 			isa = PBXGroup;
 			children = (
+				155E74A625B18E3500D6A1DE /* redImg.png */,
 				BF041D66AED81EB08AA57A7D09F6AB94 /* NSArray+Wgarray.h */,
 				5D9304D7DC4AD7B4E95415AC0ED8347C /* NSArray+Wgarray.m */,
 				4E8DBB3A62ACCED7F37C8CA15C618AB1 /* NSString+HUString.h */,
@@ -361,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155E74A725B18E3500D6A1DE /* redImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
