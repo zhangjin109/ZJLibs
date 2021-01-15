@@ -1,0 +1,16 @@
+PODS:
+  - ZJLibs (0.1.0)
+
+DEPENDENCIES:
+  - ZJLibs (from `../`)
+
+EXTERNAL SOURCES:
+  ZJLibs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJLibs: b59dccdc6312bfab7a49fdff8a1d4b222df2eee8
+
+PODFILE CHECKSUM: e4c8dd8e80b6e4b6fed2710da7724c29397c8e1a
+
+COCOAPODS: 1.10.1

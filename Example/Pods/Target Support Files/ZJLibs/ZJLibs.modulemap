@@ -1,0 +1,6 @@
+framework module ZJLibs {
+  umbrella header "ZJLibs-umbrella.h"
+
+  export *
+  module * { export * }
+}
