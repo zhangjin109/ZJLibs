@@ -1,5 +1,5 @@
 PODS:
-  - ZJLibs (0.5.0)
+  - ZJLibs (0.6.0)
 
 DEPENDENCIES:
   - ZJLibs (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZJLibs: 57e6768c3a439a55678d343cc73409bf6f7c02ed
+  ZJLibs: 9379124854f391722197ad05790e79ab5ab30d6d
 
 PODFILE CHECKSUM: e4c8dd8e80b6e4b6fed2710da7724c29397c8e1a
 

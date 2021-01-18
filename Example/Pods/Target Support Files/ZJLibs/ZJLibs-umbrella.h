@@ -13,6 +13,7 @@
 #import "NSArray+Wgarray.h"
 #import "NSString+HUString.h"
 #import "UIAlertController+HuAlert.h"
+#import "UIImage+ZJBundle.h"
 
 FOUNDATION_EXPORT double ZJLibsVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZJLibsVersionString[];
