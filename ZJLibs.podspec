@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'ZJLibs/Classes/**/*'
   
   s.resource_bundles = {
-    'ZJLibs' => ['ZJLibs/Assets/ZJLibsAssets.xcassets']
+    'ZJLibs' => ['ZJLibs/Assets/ZJLibAssets.xcassets']
   }
 
   s.public_header_files = 'ZJLibs/Classes/**/**/*.h'
