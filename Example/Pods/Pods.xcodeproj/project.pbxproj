@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		101FE2B05E0BC943E43FB3CB80659E3F /* Pods-ZJLibs_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0932F8BCE8503BBA62E1C898658A8095 /* Pods-ZJLibs_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E3C72225B52262009A19B5 /* ZJLibAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E3C72125B52262009A19B5 /* ZJLibAssets.xcassets */; };
 		25D233D12B8B665FF5FE50E9F7B87C5A /* ZJLibs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B3CE15208F578FD5958B2E73224E364D /* ZJLibs.bundle */; };
 		2E8E96EF542F0CF239C8B9A26C98DAF6 /* ZJLibs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4AF50D817E0DE113CC8341D1905894 /* ZJLibs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		362AE11C0AB22F5054F41B2AA8E9E5CF /* redImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4651C2AB40F24984E2F10F1FA67D15 /* redImg.png */; };
 		4AC97621FACD0B3243F1F45576B730CE /* Pods-ZJLibs_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B2AEE5E2DAB0EDA52DB017348C6BA /* Pods-ZJLibs_Example-dummy.m */; };
 		4B6E63C4C07699284A9EAC079B1C7041 /* Pods-ZJLibs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F6BD877FA21936BFE35C7329D0FB59 /* Pods-ZJLibs_Tests-dummy.m */; };
 		4FACF9E49BBD8889ED3FFD195A45E983 /* NSArray+Wgarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B4A4F231B0C297A7DB1CB1E33D47D3 /* NSArray+Wgarray.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,15 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03CCAE9AEF58EE57E0F59CF2595B4A7E /* Pods_ZJLibs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJLibs_Example.framework; path = "Pods-ZJLibs_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CCAE9AEF58EE57E0F59CF2595B4A7E /* Pods_ZJLibs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJLibs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FFA65A317F7CFB6FC5CBDAB1F755C0 /* Pods-ZJLibs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJLibs_Example.release.xcconfig"; sourceTree = "<group>"; };
 		079881100BC466B9B53E76D10CF89C8F /* UIAlertController+HuAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+HuAlert.h"; path = "ZJLibs/Classes/categoryFile/UIAlertController+HuAlert.h"; sourceTree = "<group>"; };
 		0932F8BCE8503BBA62E1C898658A8095 /* Pods-ZJLibs_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJLibs_Example-umbrella.h"; sourceTree = "<group>"; };
+		15E3C72125B52262009A19B5 /* ZJLibAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ZJLibAssets.xcassets; path = ZJLibs/Assets/ZJLibAssets.xcassets; sourceTree = "<group>"; };
 		15F3B7848F49DD7EB06572B6C284C9A8 /* NSArray+Wgarray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Wgarray.m"; path = "ZJLibs/Classes/categoryFile/NSArray+Wgarray.m"; sourceTree = "<group>"; };
 		18F6BD877FA21936BFE35C7329D0FB59 /* Pods-ZJLibs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJLibs_Tests-dummy.m"; sourceTree = "<group>"; };
-		1D67CF6E4C064E5AD3504CED0C467B3D /* ZJLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJLibs.framework; path = ZJLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D67CF6E4C064E5AD3504CED0C467B3D /* ZJLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZJLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A496C1887F9C4CCFCC032CC4E7DBC0 /* Pods-ZJLibs_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJLibs_Example-Info.plist"; sourceTree = "<group>"; };
-		2A4651C2AB40F24984E2F10F1FA67D15 /* redImg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = redImg.png; path = ZJLibs/Assets/redImg.png; sourceTree = "<group>"; };
 		2E2B2AEE5E2DAB0EDA52DB017348C6BA /* Pods-ZJLibs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJLibs_Example-dummy.m"; sourceTree = "<group>"; };
 		2F6429E5F61950CBC8D53F95B43F6D99 /* UIAlertController+HuAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+HuAlert.m"; path = "ZJLibs/Classes/categoryFile/UIAlertController+HuAlert.m"; sourceTree = "<group>"; };
 		2F6656FF21A8E15A6F337013EE111B17 /* Pods-ZJLibs_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJLibs_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -75,23 +75,23 @@
 		6972C59B0EF3F78392264ECFBBC724F7 /* Pods-ZJLibs_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJLibs_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B75997AF68C789A312A902582D8A74C /* ZJLibs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJLibs.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8D278F4A7FCB5AD8FE53BC80B604023E /* Pods_ZJLibs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJLibs_Tests.framework; path = "Pods-ZJLibs_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D278F4A7FCB5AD8FE53BC80B604023E /* Pods_ZJLibs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJLibs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91284C4C60543ABF1D812A22AA6B5FC8 /* NSString+HUString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HUString.m"; path = "ZJLibs/Classes/categoryFile/NSString+HUString.m"; sourceTree = "<group>"; };
 		924E69F8F5BBC4AA0711485C899B3C68 /* Pods-ZJLibs_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJLibs_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3973E0185C968396BB297C13433CE13 /* Pods-ZJLibs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJLibs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AD4AF50D817E0DE113CC8341D1905894 /* ZJLibs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJLibs-umbrella.h"; sourceTree = "<group>"; };
 		B187C701E5357EFD35FBC00DDC254ED4 /* Pods-ZJLibs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJLibs_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2F11163D084627CB047DA4F5DB28086 /* ZJLibs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJLibs-prefix.pch"; sourceTree = "<group>"; };
-		B3CE15208F578FD5958B2E73224E364D /* ZJLibs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZJLibs.bundle; path = "ZJLibs-ZJLibs.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9A7698088DB8C0463A9622638806753 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3CE15208F578FD5958B2E73224E364D /* ZJLibs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLibs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9A7698088DB8C0463A9622638806753 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE73B9BB0E7C799ADE61648FBFC657AB /* Pods-ZJLibs_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJLibs_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D91F4DC7BD11F1BD4C170F0926D46BB1 /* Pods-ZJLibs_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJLibs_Tests.modulemap"; sourceTree = "<group>"; };
-		D94255A34659204704C7BF2D3C04DB14 /* ZJLibs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZJLibs.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D94255A34659204704C7BF2D3C04DB14 /* ZJLibs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZJLibs.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DA36C9E168DA0B3A11B8476557F53DDB /* ZJLibs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJLibs.debug.xcconfig; sourceTree = "<group>"; };
 		E97C19942341ED1860F06488ACBF8707 /* ZJLibs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJLibs-Info.plist"; sourceTree = "<group>"; };
 		ED458244006CA5173AD27D56E3C2F57F /* Pods-ZJLibs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJLibs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4F45BD0D9AA882CDF9B8195B38AD559 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4F45BD0D9AA882CDF9B8195B38AD559 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,11 +233,11 @@
 				15F3B7848F49DD7EB06572B6C284C9A8 /* NSArray+Wgarray.m */,
 				43A9568BB092B6B8B37128D1AE2A5F27 /* NSString+HUString.h */,
 				91284C4C60543ABF1D812A22AA6B5FC8 /* NSString+HUString.m */,
-				2A4651C2AB40F24984E2F10F1FA67D15 /* redImg.png */,
 				079881100BC466B9B53E76D10CF89C8F /* UIAlertController+HuAlert.h */,
 				2F6429E5F61950CBC8D53F95B43F6D99 /* UIAlertController+HuAlert.m */,
 				4F430743F559906EB4FA35C97528234D /* Pod */,
 				4035E3487440F20E7D67BF1F1133AF94 /* Support Files */,
+				15E3C72125B52262009A19B5 /* ZJLibAssets.xcassets */,
 			);
 			name = ZJLibs;
 			path = ../..;
@@ -409,7 +409,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362AE11C0AB22F5054F41B2AA8E9E5CF /* redImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E3C72225B52262009A19B5 /* ZJLibAssets.xcassets in Resources */,
 				25D233D12B8B665FF5FE50E9F7B87C5A /* ZJLibs.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -800,8 +800,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

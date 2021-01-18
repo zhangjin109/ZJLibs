@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJLibs'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of ZJLibs.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'ZJLibs/Classes/**/*'
   
   s.resource_bundles = {
-    'ZJLibs' => ['ZJLibs/Assets/*.png']
+    'ZJLibs' => ['ZJLibs/Assets/ZJLibsAssets.xcassets']
   }
 
   s.public_header_files = 'ZJLibs/Classes/**/**/*.h'
