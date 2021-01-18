@@ -1,6 +1,6 @@
 {
   "name": "ZJLibs",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "summary": "A short description of ZJLibs.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhangjin109/ZJLibs",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhangjin109/ZJLibs.git",
-    "tag": "0.3.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,7 +21,7 @@
   "source_files": "ZJLibs/Classes/**/*",
   "resource_bundles": {
     "ZJLibs": [
-      "ZJLibs/Assets/*.png"
+      "ZJLibs/Assets/ZJLibAssets.xcassets"
     ]
   },
   "public_header_files": "ZJLibs/Classes/**/**/*.h"
